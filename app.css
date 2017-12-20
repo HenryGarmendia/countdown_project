@@ -41,3 +41,20 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
     text-align: center;
     text-transform: uppercase;
 }
+
+#world-premiere .my_countdown .countdown-row {
+    display: block;
+    text-align: center;
+}
+
+#world-premiere .my_countdown .countdown-section {
+    display: inline-block;
+    width: 95px;
+}
+
+#world-premiere .my_countdown .countdown-amount {
+    display: block;
+    color: #FFF;
+    font-size: 5.6em;
+    line-height: 55px;
+}
