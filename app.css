@@ -58,3 +58,11 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
     font-size: 5.6em;
     line-height: 55px;
 }
+
+#world-premiere .my_countdown .countdown-period {
+    color: #6fb5f8;
+    display: block;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
