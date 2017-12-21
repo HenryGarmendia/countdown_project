@@ -6,7 +6,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 
 #world-premiere {
     border: 1px solid rgba(255, 255, 255, .2);
-    background: #092f6e url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb) no-repeat center bottom;
+    background: #092f6e url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb) no-repeat center;
     font-size: 16px;
     font-family: 'Teko', sans-serif;
     margin: 25px auto;
@@ -65,4 +65,32 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
     font-size: 1.4em;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 525px) {
+    #world-premiere {
+        background-size: 400xp auto;
+        font-size: 12px;
+        min-height: 465ps;
+        width: 300px;
+    }
+
+    #world-premiere .heading {
+        margin-bottom: 20xp;
+        padding: 12px 0 8px 0;
+    }
+
+    #world-premiere h1 {
+        font-size: 3.7em;
+        line-height: 40px;
+    }
+
+    #world-premiere h2 {
+        line-height: 22px;
+        letter-spacing: 5px;
+    }
+
+    #world-premiere .my_countdown .countdown-section {
+        width: 68px;
+    }
 }
